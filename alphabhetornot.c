@@ -7,5 +7,5 @@ void main()
     if((a>='a'&a<='z')||(a>='A'&a<='Z'))
     printf("\nthe character is alphabet");
     else
-    printf("\nthe character is not an alphabhet");
+    printf("\nthe character is not an alphabet");
 }
