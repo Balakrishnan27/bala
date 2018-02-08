@@ -7,9 +7,6 @@ int main()
    printf("Enter a number: ");
    scanf("%d", &num);
 
-   /* Here we are generating a new number (reverse_num)
-    * by reversing the digits of original input number
-    */
    b=num;
    while(b!=0)
    {
@@ -18,10 +15,6 @@ int main()
       b/=10;
    } 
 
-   /* If the original input number (num) is equal to
-    * to its reverse (reverse_num) then its palindrome
-    * else it is not.
-    */ 
    if(reverse_num==num) 
       printf("%d is a palindrome number",num);
    else
