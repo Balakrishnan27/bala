@@ -2,7 +2,7 @@
 void main()
 {
     int a,b,c,i;
-    printf("Enter the Upper and Lower limits a and b:\n");
+    printf("Enter the Lower and Upper limits a and b:\n");
     scanf("%d %d",&a,&b);
      printf("The even numbers between %d and %d are \n",a,b);
   for(i=a+1;i<b;i++)
