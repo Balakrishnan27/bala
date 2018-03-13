@@ -5,11 +5,11 @@ void main()
 char str[50];
 int a;
 clrscr();
-printf( "Enter string:\n ");
+printf( "Enter the sentence:\n ");
 printf("\n");
 gets(str);
 a= strlen(str);
 printf("\n");
-printf("\n No.of characters in string is %d " ,a );
+printf("\n No.of characters in sentence is %d " ,a );
 getch();
 }
