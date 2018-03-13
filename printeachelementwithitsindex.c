@@ -1,18 +1,19 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-    int i,j,tn,n[100];
+    int i,j,b,a[100];
     printf("enter the total value:\n");
-    scanf("%d",&tn);
-    printf("the total number:%d\n",tn);
-    for(i=0;i<tn;i++)
+    scanf("%d",&b);
+    printf("the total number:%d\n",b);
+    for(i=0;i<b;i++)
     {
-        scanf("%d",&n[i]);
-        printf("%d",n[i]);
+        scanf("%d",&a[i]);
+        printf("%d",a[i]);
     }
-    for(j=0;j<tn;j++)
+    for(j=0;j<b;j++)
     {
-        printf("\n%d  %d\n",n[j],j);
+        printf("\n%d  %d\n",a[j],j);
     }  
   return 0;  
 }
